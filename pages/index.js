@@ -5,50 +5,44 @@ export default function Home() {
   return (
     <div className={Styles.main}>
       <div className={Styles.textarea}>
-        <h1 className={Styles.text}>박진형의 사이트</h1>
+        <h1 className={Styles.text}>취미모음 사이트</h1>
       </div>
       <section className={Styles.slideshow}>
         <div className={Styles.slide}>
           <figure>
-            <Link href="https://www.op.gg/summoners/kr/%ED%8F%B4%EB%A3%A9%EC%8A%A4">
-              <img src="images/img1.jpg"></img>
+            <Link href="https://www.op.gg/">
+              <img src="images/img12.jpg"></img>
             </Link>
-            <p className={Styles.textb}>진형이랑 폴룩스 전적보러가기</p>
+            <p className={Styles.textb}>롤 전적보러가기</p>
           </figure>
           <figure>
-            <Link href="https://comic.naver.com/webtoon/list?titleId=183559">
-              <img src="images/img2.png"></img>
+            <Link href="https://comic.naver.com/index">
+              <img src="images/img17.jpg"></img>
             </Link>
-            <p className={Styles.textb}>진형이랑 신의탑 보러가기</p>
+            <p className={Styles.textb}>웹툰 보러가기</p>
           </figure>
           <figure>
             <Link href="https://semantle-ko.newsjel.ly/">
-              <img src="images/img3.jpg"></img>
-              <p className={Styles.textb}>진형이랑 꼬맨틀 하러가기</p>
+              <img src="images/img18.png"></img>
+              <p className={Styles.textb}>유튜브 시청하기</p>
             </Link>
           </figure>
           <figure>
-            <Link href="https://www.youtube.com/watch?v=f_3caTjO6yE">
-              <img src="images/img5.jpg"></img>
-              <p className={Styles.textb}>진형이랑 아이린 보러가기</p>
+            <Link href="https://www.todomate.net/">
+              <img src="images/img15.png"></img>
+              <p className={Styles.textb}>투두리스트 작성하기</p>
             </Link>
           </figure>
           <figure>
-            <Link href="https://www.youtube.com/@Dopagod">
-              <img src="images/img4.jpg"></img>
-              <p className={Styles.textb}>진형이랑 도파 보러가기</p>
+            <Link href="https://github.com/hurhyeon">
+              <img src="images/img14.png"></img>
+              <p className={Styles.textb}>내 깃허브 보러가기</p>
             </Link>
           </figure>
           <figure>
             <Link href="https://www.manutd.com/ko">
-              <img src="images/img7.jpg"></img>
-              <p className={Styles.textb}>진형이랑 맨유 보러가기</p>
-            </Link>
-          </figure>
-          <figure>
-            <Link href="https://www.youtube.com/shorts/hjyRdIR4sPo">
-              <img src="images/img6.jpg"></img>
-              <p className={Styles.textb}>누르지마세요</p>
+              <img src="images/img13.jpg"></img>
+              <p className={Styles.textb}>맨유 보러가기</p>
             </Link>
           </figure>
         </div>
